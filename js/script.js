@@ -19,7 +19,7 @@ async function fetchData() {
 		return `<button class="accordion">${science.name}</button>
         <div class="panel card">
             <div class="line">
-                <div class="item"><i class="fa-regular fa-database"></i>Data size</div>
+                <div class="item"><i class="fa-solid fa-database"></i>Data size</div>
                 <div class="value">${science.data_size}</div>
             </div>
             <div class="line">
