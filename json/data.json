@@ -444,7 +444,7 @@
 			]
 		},
 		{
-			"name": "Mystery Goo TM Obervation",
+			"name": "Mystery Goo™ Obervation",
 			"data_size": "n/a",
 			"data_rate": "n/a",
 			"sample_size": "1 slot",
@@ -485,6 +485,322 @@
 			"operation": "n/a",
 			"part_needed": "Unknown",
 			"information": ["none"]
+		},
+		{
+			"name": "RELAX",
+			"data_size": "n/a",
+			"data_rate": "n/a",
+			"sample_size": "15 slots",
+			"sample_mass": "2025.000 t",
+			"duration": "95 days 0 hours",
+			"situations": ["landed (biomes)"],
+			"electricity_required": "54.600/s",
+			"operation": "Scientist (level: 2)",
+			"part_needed": "Unknown",
+			"information": ["Needs, Ore: 0.060/m"]
+		},
+		{
+			"name": "SALINE",
+			"data_size": "n/a",
+			"data_rate": "n/a",
+			"sample_size": "7 slots",
+			"sample_mass": "103.680 t",
+			"duration": "120 days 0 hours",
+			"situations": ["splashed (biomes)"],
+			"electricity_required": "31.600/s",
+			"operation": "Scientist (level: 4)",
+			"part_needed": "Unknown",
+			"information": ["Max altitude: -50.0 m"]
+		},
+		{
+			"name": "SALT",
+			"data_size": "n/a",
+			"data_rate": "n/a",
+			"sample_size": "10 slots",
+			"sample_mass": "18.80 kg",
+			"duration": "2m 19s",
+			"situations": ["splashed (biomes)"],
+			"electricity_required": "6.820/s",
+			"operation": "n/a",
+			"part_needed": "Unknown",
+			"information": ["Max altitude: -100.0 m"]
+		},
+		{
+			"name": "Seismic Scan",
+			"data_size": "200.00 MB",
+			"data_rate": "630.4 B/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "14 days 4 hours",
+			"situations": ["landed (biomes)"],
+			"electricity_required": "0.456/s",
+			"operation": "n/a",
+			"part_needed": "Unknown",
+			"information": ["none"]
+		},
+		{
+			"name": "SHAKE",
+			"data_size": "13.48 GB",
+			"data_rate": "1.16 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "1 Year 114 days",
+			"situations": ["landed (biomes)"],
+			"electricity_required": "9.370/s",
+			"operation": "Engineer (level: 3)",
+			"part_needed": "Unknown",
+			"information": [
+				"Astronaut Complex min level: 3",
+				"Mission Control min level: 3",
+				"Min crew: 4",
+				"Min vol/crew 10.00m³"
+			]
+		},
+		{
+			"name": "Short Period Comet Sample",
+			"data_size": "n/a",
+			"data_rate": "n/a",
+			"sample_size": "2 slots",
+			"sample_mass": "33.88 kg",
+			"duration": "n/a",
+			"situations": ["Comet"],
+			"electricity_required": "n/a",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": ["Comet samples can be taken by Kerbals on EVA"]
+		},
+		{
+			"name": "SITE",
+			"data_size": "12.40 MB",
+			"data_rate": "3.40 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "1 hour 00 m",
+			"situations": ["space low", "space high (biomes)"],
+			"electricity_required": "0.150/s",
+			"operation": "n/a",
+			"part_needed": "Unknown",
+			"information": ["Bodies not allowed: Suns"]
+		},
+		{
+			"name": "STAKE",
+			"data_size": "18.20 GB",
+			"data_rate": "3.76 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "224 days 0 hours",
+			"situations": ["landed"],
+			"electricity_required": "27.530/s",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": [
+				"Bodies not allowed: home body",
+				"Astronaut Complex min level: 3",
+				"Administration min level: 2",
+				"Mission Control min level: 3",
+				"Min radiation: 7.200 mrad/h"
+			]
+		},
+		{
+			"name": "Surface Deployed Ion Collector",
+			"data_size": "100.00 MB",
+			"data_rate": "n/a",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "n/a",
+			"situations": ["n/a"],
+			"electricity_required": "n/a",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": [
+				"This ia a cargo part that can be placed inside Inventories",
+				"Dry Mass: 0.025 t",
+				"Packed Volume: 35.0 L",
+				"Power Units Required: 1",
+				"Requires No Atmosphere"
+			]
+		},
+		{
+			"name": "Surface Deployed Mystery Goo™ Observations",
+			"data_size": "45.00 MB",
+			"data_rate": "n/a",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "n/a",
+			"situations": ["n/a"],
+			"electricity_required": "n/a",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": [
+				"This ia a cargo part that can be placed inside Inventories",
+				"Dry Mass: 0.040 t",
+				"Packed Volume: 25.0 L",
+				"Power Units Required: 1"
+			]
+		},
+		{
+			"name": "Surface Deployed Seismic Sensor",
+			"data_size": "80.00 MB",
+			"data_rate": "n/a",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "n/a",
+			"situations": ["n/a"],
+			"electricity_required": "n/a",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": [
+				"This ia a cargo part that can be placed inside Inventories",
+				"Dry Mass: 0.035 t",
+				"Packed Volume: 25.0 L",
+				"Power Units Required: 1"
+			]
+		},
+		{
+			"name": "Surface Deployed Weather Observations",
+			"data_size": "60.00 MB",
+			"data_rate": "n/a",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "n/a",
+			"situations": ["n/a"],
+			"electricity_required": "n/a",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": [
+				"This ia a cargo part that can be placed inside Inventories",
+				"Dry Mass: 0.060 t",
+				"Packed Volume: 35.0 L",
+				"Power Units Required: 1",
+				"Requires an Atmosphere"
+			]
+		},
+		{
+			"name": "Surface Sample",
+			"data_size": "n/a",
+			"data_rate": "n/a",
+			"sample_size": "1 slot",
+			"sample_mass": "25.00 kg",
+			"duration": "55s",
+			"situations": ["landed (biomes)"],
+			"electricity_required": "0.067/s",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": ["Astronaut Complex min level: 2"]
+		},
+		{
+			"name": "Telemetry Report",
+			"data_size": "750.00 kB",
+			"data_rate": "25.00 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "30s",
+			"situations": [
+				"landed (biomes)",
+				"splashed (biomes)",
+				"flying low (biomes)",
+				"flying high (biomes)",
+				"space low",
+				"space high"
+			],
+			"electricity_required": "0.052/s",
+			"operation": "n/a",
+			"part_needed": "Unknown",
+			"information": ["none"]
+		},
+		{
+			"name": "Temperature Scan",
+			"data_size": "450.00 kB",
+			"data_rate": "3.26 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "2m 18s",
+			"situations": [
+				"flying low (biomes)",
+				"flying high",
+				"space low",
+				"space high",
+				"surface (biomes)"
+			],
+			"electricity_required": "0.120/s",
+			"operation": "n/a",
+			"part_needed": "Unknown",
+			"information": ["none"]
+		},
+		{
+			"name": "TICK",
+			"data_size": "3.47 TB",
+			"data_rate": "54.35 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "6 years 395 days",
+			"situations": ["space low", "space high"],
+			"electricity_required": "0.820/s",
+			"operation": "n/a",
+			"part_needed": "Unknown",
+			"information": ["Bodies allowed: Suns"]
+		},
+		{
+			"name": "TRAPPED",
+			"data_size": "n/a",
+			"data_rate": "n/a",
+			"sample_size": "5702 slots",
+			"sample_mass": "15.00 kg",
+			"duration": "2 years 72 days",
+			"situations": ["landed"],
+			"electricity_required": "13.350/s",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": ["Bodies not allowed: home body"]
+		},
+		{
+			"name": "Visual Observation",
+			"data_size": "112.00 MB",
+			"data_rate": "577.32 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "3m 14s",
+			"situations": [
+				"landed (biomes)",
+				"splashed (biomes)",
+				"space low",
+				"space high"
+			],
+			"electricity_required": "1.160/s",
+			"operation": "Pilot (level: 3)",
+			"part_needed": "Unknown",
+			"information": ["none"]
+		},
+		{
+			"name": "WING",
+			"data_size": "38.00 MB",
+			"data_rate": "60.61 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "10m 27s",
+			"situations": ["flying low (biomes)"],
+			"electricity_required": "2.800/s",
+			"operation": "Pilot (level: 1)",
+			"part_needed": "Unknown",
+			"information": ["Max altitude: 6.0 Km"]
+		},
+		{
+			"name": "WRECK",
+			"data_size": "13.48 GB",
+			"data_rate": "6.94 kB/s",
+			"sample_size": "n/a",
+			"sample_mass": "n/a",
+			"duration": "90 days 0 hours",
+			"situations": ["splashed (biomes)"],
+			"electricity_required": "9.370/s",
+			"operation": "anyone",
+			"part_needed": "Unknown",
+			"information": [
+				"Bodies not allowed: home body",
+				"Min crew: 3",
+				"Min vol/crew 25.00m³",
+				"Max altitude: -50.0 m"
+			]
 		}
 	]
 }
