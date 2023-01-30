@@ -47,14 +47,6 @@ body {
 	align-items: center;
 }
 
-.soon {
-	display: inline-block;
-	font-size: 0.6em;
-	rotate: -6deg;
-	font-weight: 700;
-	border-top: 1px dashed red;
-	border-bottom: 1px dashed red;
-}
 h1 {
 	font-family: "corbel";
 	font-size: 2em;

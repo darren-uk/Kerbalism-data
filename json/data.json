@@ -270,7 +270,7 @@
 			"situations": ["splashed (biomes)"],
 			"electricity_required": "14.020/s",
 			"operation": "n/a",
-			"part_needed": ["Unknown"],
+			"part_needed": ["Atmospheric fluid spectro variomter"],
 			"information": ["Min altitude: -25.0m"]
 		},
 		{
@@ -300,7 +300,7 @@
 			"situations": ["space high"],
 			"electricity_required": "1.910/s",
 			"operation": "n/a",
-			"part_needed": ["Unknown"],
+			"part_needed": ["SENTINEL Infrared Telescope"],
 			"information": ["Bodies allowed: Home Body"]
 		},
 		{
@@ -541,7 +541,7 @@
 			"situations": ["splashed (biomes)"],
 			"electricity_required": "6.820/s",
 			"operation": "n/a",
-			"part_needed": ["Unknown"],
+			"part_needed": ["Atmospheric fluid spectro variomter"],
 			"information": ["Max altitude: -100.0 m"]
 		},
 		{
