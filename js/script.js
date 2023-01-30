@@ -16,6 +16,12 @@ async function fetchData() {
 			infoList += info;
 		}
 
+		let partList = "";
+		for (let i = 0; i < science.part_needed.length; i++) {
+			let part = `<p>${science.part_needed[i]}</p>`;
+			partList += part;
+		}
+
 		return `<button class="accordion">${science.name}</button>
         <div class="panel card">
             <div class="line">
@@ -52,7 +58,7 @@ async function fetchData() {
             </div>
             <div class="line">
                 <div class="item"><i class="fa-solid fa-puzzle-piece"></i>Part needed</div>
-                <div class="value">${science.part_needed}</div>
+                <div class="value">${partList}</div>
             </div>
             <div class="line">
                 <div class="item"><i class="fa-solid fa-info"></i>Information</div>
