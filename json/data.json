@@ -10,7 +10,7 @@
 			"situations": ["landed", "space low"],
 			"electricity_required": "7.400/s",
 			"operation": "Scientist (level: 4)",
-			"part_needed": "unknown",
+			"part_needed": ["Mobile Processing Lab MPL-LG-2"],
 			"information": ["none"]
 		},
 		{
@@ -23,7 +23,7 @@
 			"situations": ["Asteroid"],
 			"electricity_required": "n/a",
 			"operation": "anyone",
-			"part_needed": "unknown",
+			"part_needed": ["unknown"],
 			"information": ["Asteroid samples can be taken by Kerbals on EVA"]
 		},
 		{
@@ -36,7 +36,7 @@
 			"situations": ["flying low (biomes)", "flying high", "surface (biomes)"],
 			"electricity_required": "2.840/s",
 			"operation": "n/a",
-			"part_needed": "unknown",
+			"part_needed": ["Atmospheric fluid spectro variomter"],
 			"information": ["Bodies with atmosphere needed"]
 		},
 		{
@@ -49,7 +49,10 @@
 			"situations": ["flying low (biomes)", "flying high", "surface (biomes)"],
 			"electricity_required": "0.050/s",
 			"operation": "n/a",
-			"part_needed": "unknown",
+			"part_needed": [
+				"Atmospheric fluid spectro variomter",
+				"PresMat Barometer"
+			],
 			"information": ["Bodies with atmosphere needed"]
 		},
 		{
@@ -62,7 +65,7 @@
 			"situations": ["space low (biomes)"],
 			"electricity_required": "1.920/s",
 			"operation": "n/a",
-			"part_needed": "unknown",
+			"part_needed": ["M700 Survey Scanner"],
 			"information": ["none"]
 		},
 		{
@@ -75,7 +78,7 @@
 			"situations": ["flying low (biomes)", "flying high"],
 			"electricity_required": "7.100/s",
 			"operation": "Scientist (level: 1)",
-			"part_needed": "unknown",
+			"part_needed": ["Mobile Processing Lab MPL-LG-2"],
 			"information": ["none"]
 		},
 		{
@@ -88,7 +91,7 @@
 			"situations": ["landed", "splashed", "space low"],
 			"electricity_required": "23.100/s",
 			"operation": "Scientist (level: 1)",
-			"part_needed": "Greenhouse",
+			"part_needed": ["Mobile Processing Lab MPL-LG-2", "Greenhouse"],
 			"information": ["Not allowed on Home Body"]
 		},
 		{
@@ -101,7 +104,7 @@
 			"situations": ["splashed (biomes)"],
 			"electricity_required": "1.370/s",
 			"operation": "Scientist (level: 4)",
-			"part_needed": "unknown",
+			"part_needed": ["PPD-24 Panorama Observation Module"],
 			"information": [
 				"Not allowed on Home Body, Eve, Laythe",
 				"Min crew: 2",
