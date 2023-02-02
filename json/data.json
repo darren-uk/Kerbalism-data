@@ -204,7 +204,7 @@
 			],
 			"electricity_required": "n/a",
 			"operation": "anyone",
-			"part_needed": "EVA Experiment kit",
+			"part_needed": ["EVA Experiment kit"],
 			"information": ["Collectable data", "Rerunnable", "Resettable"]
 		},
 		{
