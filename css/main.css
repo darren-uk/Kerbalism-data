@@ -8,7 +8,16 @@
 
 :root {
 	--max-page-width: 600px;
-	--paragraph-color: #333437;
+	--paragraph-color: #ccd3f2;
+	--color-page-bg: #2e2a2a;
+	--color-heading: #fff;
+	--color-button-close: #3b2855;
+	--color-button-open: #4b3669;
+	--color-button-text: #fff;
+	--color-line: #787676;
+	--color-icon: #4da67d;
+	--color-link: #51b3e4;
+	--color-link-hover: #4a8aaa;
 	font-size: 18px;
 }
 
@@ -33,6 +42,7 @@ body {
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
 	color: var(--paragraph-color);
+	background-color: var(--color-page-bg);
 }
 
 img {
@@ -51,6 +61,20 @@ h1 {
 	font-family: "corbel";
 	font-size: 2em;
 	margin-bottom: 1.2em;
+	color: var(--color-heading);
+}
+
+a,
+a:visited {
+	color: var(--color-link);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--color-link-hover);
+}
+
+i {
+	color: var(--color-icon);
 }
 header p {
 	margin-bottom: 1.2em;
@@ -58,13 +82,13 @@ header p {
 
 .presentation {
 	max-width: var(--max-page-width);
-	background-color: white;
+	background-color: var(--color-page-bg);
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-	background-color: #eee;
-	color: #444;
+	background-color: var(--color-button-close);
+	color: var(--color-button-text);
 	font-size: 0.8em;
 	cursor: pointer;
 	padding: 18px;
@@ -78,29 +102,35 @@ header p {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
-.accordion:hover {
-	background-color: #ccc;
+.accordion:hover,
+.accordion:focus,
+.accordion:focus-visible {
+	background-color: var(--color-button-open);
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
 	padding: 0 1em;
-	background-color: white;
+	background-color: var(--color-page-bg);
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }
 
 .accordion:after {
-	content: "\02795"; /* Unicode character for "plus" sign (+) */
-	font-size: 13px;
-	color: #777;
+	/* content: "\02795"; Unicode character for "plus" sign (+) */
+	content: "\2b";
+	font-size: 1.2em;
+	color: var(--paragraph-color);
 	float: right;
 	margin-left: 5px;
 }
 
 .active:after {
-	content: "\2796"; /* Unicode character for "minus" sign (-) */
+	/* content: "\2796"; Unicode character for "minus" sign (-) */
+	content: "\f068";
+	font-family: "FontAwesome";
+	color: var(--paragraph-color);
 }
 
 button:first-of-type {
@@ -126,7 +156,7 @@ button:first-of-type {
 .line {
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 2px solid lightblue;
+	border-bottom: 2px solid var(--color-line);
 }
 
 .item,
@@ -143,10 +173,6 @@ button:first-of-type {
 	margin-right: 2em;
 }
 
-/* .value {
-	max-width: 32ch;
-} */
-
 .card div i {
 	font-size: 1.4em;
 	margin-right: 1em;
@@ -155,16 +181,13 @@ button:first-of-type {
 	padding-left: 1em;
 	padding-top: 0.2em;
 	padding-bottom: 0.5em;
-	border-bottom: 1px solid lightblue;
+	border-bottom: 1px solid var(--color-line);
 }
 
 .value > p:only-child {
 	border: none;
 }
 
-/* .value p:nth-child(even) {
-	border-right: 1px solid lightblue;
-} */
 #myBtn {
 	display: none; /* Hidden by default */
 	position: fixed; /* Fixed/sticky position */
