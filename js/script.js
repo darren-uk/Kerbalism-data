@@ -49,7 +49,7 @@ async function fetchData() {
                 <div class="value">${situationList}</div>
             </div>
             <div class="line">
-                <div class="item"><i class="fa-solid fa-bolt"></i>Electricity required</div>
+                <div class="item"><i class="fa-solid fa-bolt"></i>Electricity</div>
                 <div class="value">${science.electricity_required}</div>
             </div>
             <div class="line">
