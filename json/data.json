@@ -340,7 +340,7 @@
 			"electricity_required": "6.400/s",
 			"operation": "anyone",
 			"part_needed": ["Mobile Processing Lab MPL-LG-2"],
-			"information": ["Bodies not allowed", "Requires:Shadow"]
+			"information": ["Requires: Shadow"]
 		},
 		{
 			"name": "LEAVE",
@@ -451,7 +451,8 @@
 			"information": [
 				"Bodies allowed: Atmospheric",
 				"Min inclination: 70.0 deg",
-				"Max inclination: 120.0"
+				"Max inclination: 120.0",
+				"Polar Orbit"
 			]
 		},
 		{

@@ -20,6 +20,13 @@
 	--color-link-hover: #4a8aaa;
 	font-size: 18px;
 }
+:root {
+	--color-page-bg: #14213d;
+	--color-button-close: #e5e5e5;
+	--color-button-open: #cbc8c8;
+	--color-button-text: #14213d;
+	--color-link: #fca311;
+}
 
 *,
 *::before,
@@ -98,6 +105,7 @@ header p {
 	outline: none;
 	transition: 0.4s;
 	letter-spacing: 0.1em;
+	border-radius: 3px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -121,7 +129,7 @@ header p {
 	/* content: "\02795"; Unicode character for "plus" sign (+) */
 	content: "\2b";
 	font-size: 1.2em;
-	color: var(--paragraph-color);
+	color: var(--color-button-text);
 	float: right;
 	margin-left: 5px;
 }
@@ -130,7 +138,7 @@ header p {
 	/* content: "\2796"; Unicode character for "minus" sign (-) */
 	content: "\f068";
 	font-family: "FontAwesome";
-	color: var(--paragraph-color);
+	color: var(--color-button-text);
 }
 
 button:first-of-type {
